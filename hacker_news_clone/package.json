@@ -1,0 +1,22 @@
+{
+  "name": "hacker_news_clone",
+  "version": "1.0.0",
+  "description": "This is a clone of Hacker news",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "John Fruscella",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "is-empty": "^1.2.0",
+    "mongoose": "^5.9.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2"
+  }
+}
