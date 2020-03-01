@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
-// const messages = require("./routes/message");
+const messages = require("./routes/articles");
 
 app.use(express.static('public'));
 app.use(express.json());
